@@ -1,0 +1,754 @@
+[
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\nothing.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_big_outer.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_big_outer.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_bottom_bg.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_bottom_bg.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_half.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_half.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_selected.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\indicator_selected.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_btn_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_btn_normal.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_empty_page.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_empty_page.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_shadow.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer_shadow.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_feedback.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_feedback.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_smart_update.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_smart_update.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_theme.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_theme.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_btn_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_btn_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_error_page.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_error_page.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_divider.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_divider.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_theme.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_theme.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid_item_bg_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\grid_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_normal.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\indicator_normal.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_uninstall.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_uninstall.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_photo.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\bg_photo.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\btn_pressed.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid_item_bg_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\grid_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_am.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer_am.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_normal.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\indicator_normal.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_tab.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\bg_tab.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_btn_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_btn_normal.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nothing.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\nothing.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_download.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_download.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_scans.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_scans.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_exit.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_exit.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_btn_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_btn_pressed.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_redownload.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_redownload.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_small_outer.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_small_outer.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_about.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_about.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_scans.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_scans.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cancel.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_cancel.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_updates.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_updates.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bg_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_empty.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_empty.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_update.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_update.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid_item_bg_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\grid_item_bg_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_btn_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_btn_pressed.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_full.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_full.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_bg.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_bg.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\action_download.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\action_download.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_tab.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\bg_tab.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_full.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_full.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\btn_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_empty_page.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_empty_page.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bg_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\btn_normal.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_error_page.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_error_page.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_up.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_install.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_install.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_resume.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_resume.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_smart_update.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_smart_update.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_redownload.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_redownload.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grid_item_bg_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\grid_item_bg_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_down.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_setting.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_btn_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_btn_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\arrow_up.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_divider.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_divider.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_action_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_action_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_feedback.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_feedback.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bg_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home_slide.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_home_slide.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_pause.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_bg_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_bg_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_big_outer.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_big_outer.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_updates.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_updates.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_uninstall.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_uninstall.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_small_inner.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_small_inner.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_am.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer_am.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_btn_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_btn_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home_slide.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_home_slide.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_normal.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_normal.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_bg.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_bg.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_about.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_about.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer_shadow.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer_shadow.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_small_inner.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_small_inner.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cancel.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_cancel.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_install.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_install.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_empty.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_empty.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item_action_pressed.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\list_item_action_pressed.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\indicator_selected.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\indicator_selected.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_download.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_download.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_default.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_default.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_small_outer.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_small_outer.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_big_inner.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_big_inner.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_exit.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_exit.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_pressed.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\btn_pressed.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_update.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_update.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_over.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\photo_over.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\action_download.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\action_download.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rating_small_half.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\rating_small_half.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_default.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_default.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\spinner_big_inner.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\spinner_big_inner.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_pause.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progress_btn_normal.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\progress_btn_normal.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\photo_over.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\photo_over.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_resume.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_resume.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\detail_bottom_bg.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\detail_bottom_bg.9.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "I:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_photo.png",
+        "source": "I:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\bg_photo.png"
+    },
+    {
+        "merged": "H:\\workSpace\\MyApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting.png",
+        "source": "H:\\workSpace\\MyApplication\\app\\src\\main\\res\\drawable-hdpi\\ic_setting.png"
+    }
+]
