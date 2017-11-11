@@ -24,7 +24,8 @@ public class HomePagerAdapter extends PagerAdapter{
     @Override
     public int getCount() {
         if (pictureUrl != null){
-            return pictureUrl.size();
+            //return pictureUrl.size();
+            return Integer.MAX_VALUE;
         }
         return 0;
     }
@@ -36,6 +37,8 @@ public class HomePagerAdapter extends PagerAdapter{
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
+        //0.处理postion
+        position = position % pictureUrl.size();
         //1.data
         String url = pictureUrl.get(position);
         //2.view
