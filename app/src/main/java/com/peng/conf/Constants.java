@@ -11,9 +11,9 @@ public class Constants {
      public static final class URL{
         //public static final  String BASEURL = "http://10.0.3.2:8080/GooglePlayServer/";
         //public static final  String BASEURL = "http://localhost:8080/GooglePlayServer/";
-        //public static final  String BASEURL = "http://10.0.2.2:8080/GooglePlayServer/";
+        public static final  String BASEURL = "http://10.0.2.2:8080/GooglePlayServer/";
          //192.168.1.108
-        public static final  String BASEURL = "http://192.168.1.108:8080/GooglePlayServer/";
+        //public static final  String BASEURL = "http://127.0.0.1:8080/GooglePlayServer/";
         //public static final  String BASEURL = "http://com.example.proxy:8080/GooglePlayServer/";
         public static final  String IMAGBURL = BASEURL + "image?name=";
     }

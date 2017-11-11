@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
-
         //1.viewpage绑定adapter
         //测试模拟数据
         mMainTitles = UIUtils.getStrings(R.array.main_titles);
@@ -60,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
         mMainViewPage.setAdapter(fragmentStatePagerAdapter);
         //2.tabs绑定viewpager
         mMainTabs.setViewPager(mMainViewPage);
-
     }
 
     //3. ActionBarDrawerToggle初始化操作
@@ -115,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
                 mMainViewPage.getViewTreeObserver().removeGlobalOnLayoutListener(this);
             }
         });
-
     }
     class MyOnPageChangeListener implements ViewPager.OnPageChangeListener{
 

@@ -1,7 +1,6 @@
 package com.peng.protocol;
 
 
-import android.support.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.peng.base.BaseProtocol;
@@ -12,7 +11,6 @@ import com.peng.bean.HomeBean;
  */
 public class HomeProtocol extends BaseProtocol<HomeBean> {
 
-    @NonNull
     @Override
     public String getInterfaceKey() {
         return "home";

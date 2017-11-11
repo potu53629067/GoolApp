@@ -5,6 +5,7 @@ import android.view.View;
 
 import android.widget.ListView;
 
+import com.peng.holder.HomePictureHolder;
 import com.peng.protocol.HomeProtocol;
 import com.peng.adapter.HomeAdapter;
 import com.peng.base.BaseFragment;
@@ -52,7 +53,14 @@ public class HomeFragment extends BaseFragment {
 
     @Override
     protected View initSuccessView() {
+        //1.view
         ListView listView = new ListView(UIUtils.getContext());
+        //2.添加headerView
+        HomePictureHolder homePictureHolder = new HomePictureHolder();
+        listView.addHeaderView(homePictureHolder.mHolderView);
+        //3.传递数据给holder，通知其刷新
+        homePictureHolder.setDataAndRefreshHolderView(mPictures);
+        //4.dataSet--->在成员变量里面
         HomeAdapter adapter = new HomeAdapter(listView,mDatas);
         listView.setAdapter(adapter);
         return listView;

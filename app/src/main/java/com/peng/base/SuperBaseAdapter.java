@@ -1,6 +1,5 @@
 package com.peng.base;
 
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
@@ -131,7 +130,6 @@ public abstract class SuperBaseAdapter<ITEMTYPE> extends MyBaseAdapter<ITEMTYPE>
      * @des 在SuperBaseAdapter中不知道如何返回具体的BaseHolder的子类对象, 只能交给子类
      * @des 子类是必须实现, 所以定义成为抽象方法即可
      */
-    @NonNull
     public abstract BaseHolder getSpecialBaseHolder();
 
     //处理条目的点击

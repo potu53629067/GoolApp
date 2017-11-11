@@ -1,7 +1,6 @@
 package com.peng.adapter;
 
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -29,7 +28,6 @@ public class HomeAdapter extends SuperBaseAdapter<ItemBean> {
         super(listView,datas);
     }
 
-    @NonNull
     @Override
     public BaseHolder getSpecialBaseHolder() {
         return new ItemHolder();

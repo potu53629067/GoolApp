@@ -1,7 +1,6 @@
 package com.peng.adapter;
 
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
 import android.widget.AbsListView;
 
 import com.peng.base.BaseHolder;
@@ -21,7 +20,6 @@ public class GameAdapter extends SuperBaseAdapter<ItemBean> {
    public GameAdapter(AbsListView absListView,List<ItemBean> datas){
        super(absListView,datas);
     }
-    @NonNull
     @Override
     public BaseHolder getSpecialBaseHolder() {
         return new ItemHolder();
