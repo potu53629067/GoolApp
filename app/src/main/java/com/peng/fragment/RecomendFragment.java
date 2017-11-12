@@ -9,10 +9,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.peng.adapter.RecommendAdapter;
 import com.peng.base.BaseFragment;
 import com.peng.controller.LoadingPager;
+import com.peng.protocol.RecommendProtocol;
 import com.peng.utils.UIUtils;
+import com.peng.views.flyinout.StellarMap;
 
+import java.io.IOException;
+import java.util.List;
 import java.util.Random;
 
 /**
@@ -20,16 +25,29 @@ import java.util.Random;
  */
 public class RecomendFragment extends BaseFragment {
 
+    private List<String> mDatas;
+    //1.初始化数据
     @Override
     protected LoadingPager.LoadDataResult initData() {
-        LoadingPager.LoadDataResult[] loadDataResults = {LoadingPager.LoadDataResult.EMPTY, LoadingPager.LoadDataResult.EMPTY, LoadingPager.LoadDataResult.ERROR};
-        Random random = new Random();
-        int index = random.nextInt(3);
-        return loadDataResults[index];
+        RecommendProtocol protocol = new RecommendProtocol();
+        try {
+            mDatas = protocol.loadData(0);
+            return checkResData(mDatas);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return LoadingPager.LoadDataResult.ERROR;
+        }
     }
-
+    //2.初始化成功视图
     @Override
     protected View initSuccessView() {
-        return null;
+        StellarMap stellarMap = new StellarMap(UIUtils.getContext());
+        RecommendAdapter adapter = new RecommendAdapter(mDatas);
+        stellarMap.setAdapter(adapter);
+        //2.1 手动选中第一页
+        stellarMap.setGroup(0,true);
+        //2.2 每页显示15条有问题，需要对屏幕进行拆分
+        stellarMap.setRegularity(15,20);
+        return stellarMap;
     }
 }
