@@ -4,6 +4,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
+import android.widget.ListView;
 
 import com.peng.factory.ThreadPoolProxyFactory;
 import com.peng.holder.LoadMoreHolder;
@@ -140,6 +141,10 @@ public abstract class SuperBaseAdapter<ITEMTYPE> extends MyBaseAdapter<ITEMTYPE>
     //处理条目的点击
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        //18.有头情况下的postion处理
+        if(mAbsListView instanceof ListView){
+            position = position - ((ListView)mAbsListView).getHeaderViewsCount();
+        }
     int curItemViewType = getItemViewType(position);
     if(curItemViewType == VIEWTYPE_LOADMORE){
         if(mState == LoadMoreHolder.LOADMORE_ERROR){
