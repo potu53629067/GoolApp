@@ -50,74 +50,6 @@ public abstract class BaseProtocol<T> {
         //1.从网络，返回，存本地
         return loadDataFromNet(index);
     }
-    //3.从内存，返回数据
-    private T loadDataFromMem(int index) {
-        //得到存储结构
-        MyApplication app = (MyApplication) UIUtils.getContext();
-        Map<String, String> cacheJsonMap = app.mCacheJsonMap;
-        //得到缓存的key
-        String key = generateKey(index);
-        //判断是否存储缓存
-        if(cacheJsonMap.containsKey(key)){
-            String cacheMemJsonString = cacheJsonMap.get(key);
-            //解析返回
-            return parseJson(cacheMemJsonString, new Gson());
-        }
-        return null;
-    }
-
-    //2.从本地加载数据
-    private T loadDataFromLocal(int index) {
-        BufferedReader reader = null;
-    try{
-        File cacheFile = getCacheFile(index);
-        if(cacheFile.exists()){ //可能有效的缓存文件
-            //所以先读取第一行，判断缓存时间是否有效
-            reader = new BufferedReader(new FileReader(cacheFile));
-            String firstLine = reader.readLine();
-            long cacheInsertTime = Long.parseLong(firstLine);
-            if((System.currentTimeMillis()-cacheInsertTime)<PROTOCOLTIMETOU){
-                //读取第二行，得到缓存的内容
-                String cacheJsonString = reader.readLine();
-                //保存数据到内存
-                writeData2Men(cacheJsonString,index);
-                //解析返回
-                return parseJson(cacheJsonString,new Gson());
-            }
-        }
-        }catch (Exception e){
-            e.printStackTrace();
-            return null;
-        }finally {
-            IOUtils.close(reader);
-        }
-            return  null;
-    }
-     //2.3 保存数据到内存
-    private void writeData2Men(String cacheJsonString, int index) {
-        //得到存储结构
-        MyApplication app = (MyApplication) UIUtils.getContext();
-        Map<String, String> cacheJsonMap = app.mCacheJsonMap;
-        String key = generateKey(index);
-        cacheJsonMap.put(key,cacheJsonString);
-    }
-
-
-    //2.2 得到缓存文件
-    private File getCacheFile(int index) {
-        //生成唯一的key
-        String key = generateKey(index);
-        //初始化缓存文件
-        String dir = FileUtils.getDir("json");
-        String fileName = key;
-        return new File(dir,fileName);
-    }
-
-    //2.1 创建生成缓存的唯一Key的方法
-    private String generateKey(int index){
-        return getInterfaceKey() + "." + index;
-    }
-
     //1.从网络加载数据
     private T loadDataFromNet(int index) throws IOException {
         //1.创建okHttpClient对象
@@ -125,8 +57,7 @@ public abstract class BaseProtocol<T> {
         // 2.创建请求对象
         String url = Constants.URL.BASEURL + getInterfaceKey();
         //参数部分
-        Map<String, Object> paramsMap = new HashMap<>();
-        paramsMap.put("index", index + "");
+        Map<String, Object> paramsMap = getParamsMap(index);
         //map-->String
         String urlParamsByMap = HttpUtils.getUrlParamsByMap(paramsMap);
         //拼接参数
@@ -167,8 +98,81 @@ public abstract class BaseProtocol<T> {
             IOUtils.close(writer);
         }
     }
-    //0.得到协议的关键字
-    public abstract String getInterfaceKey();
-    //解析json数据
+    //1.2 参数部分（子类选择性重写）
+    public Map<String, Object> getParamsMap(int index) {
+        Map<String, Object> paramsMap = new HashMap<>();
+        paramsMap.put("index", index + "");
+        return paramsMap;
+    }
+    //1.3 解析json数据交给子类去实现
     public abstract T parseJson(String resJsonString, Gson gson);
+
+    //2.从本地加载数据
+    private T loadDataFromLocal(int index) {
+        BufferedReader reader = null;
+    try{
+        File cacheFile = getCacheFile(index);
+        if(cacheFile.exists()){ //可能有效的缓存文件
+            //所以先读取第一行，判断缓存时间是否有效
+            reader = new BufferedReader(new FileReader(cacheFile));
+            String firstLine = reader.readLine();
+            long cacheInsertTime = Long.parseLong(firstLine);
+            if((System.currentTimeMillis()-cacheInsertTime)<PROTOCOLTIMETOU){
+                //读取第二行，得到缓存的内容
+                String cacheJsonString = reader.readLine();
+                //保存数据到内存
+                writeData2Men(cacheJsonString,index);
+                //解析返回
+                return parseJson(cacheJsonString,new Gson());
+            }
+        }
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }finally {
+            IOUtils.close(reader);
+        }
+            return  null;
+    }
+    //2.1 创建生成缓存的唯一Key的方法
+    private String generateKey(int index){
+        return getInterfaceKey() + "." + index;
+    }
+    //2.1 得到协议的关键字
+    public abstract String getInterfaceKey();
+
+    //2.2 得到缓存文件
+    private File getCacheFile(int index) {
+        //生成唯一的key
+        String key = generateKey(index);
+        //初始化缓存文件
+        String dir = FileUtils.getDir("json");
+        String fileName = key;
+        return new File(dir,fileName);
+    }
+
+     //2.3 保存数据到内存
+    private void writeData2Men(String cacheJsonString, int index) {
+        //得到存储结构
+        MyApplication app = (MyApplication) UIUtils.getContext();
+        Map<String, String> cacheJsonMap = app.mCacheJsonMap;
+        String key = generateKey(index);
+        cacheJsonMap.put(key,cacheJsonString);
+    }
+    //3.从内存，返回数据
+    private T loadDataFromMem(int index) {
+        //得到存储结构
+        MyApplication app = (MyApplication) UIUtils.getContext();
+        Map<String, String> cacheJsonMap = app.mCacheJsonMap;
+        //得到缓存的key
+        String key = generateKey(index);
+        //判断是否存储缓存
+        if(cacheJsonMap.containsKey(key)){
+            String cacheMemJsonString = cacheJsonMap.get(key);
+            //解析返回
+            return parseJson(cacheMemJsonString, new Gson());
+        }
+        return null;
+    }
+
 }
