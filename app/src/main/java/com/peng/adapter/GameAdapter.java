@@ -21,7 +21,7 @@ public class GameAdapter extends SuperBaseAdapter<ItemBean> {
        super(absListView,datas);
     }
     @Override
-    public BaseHolder getSpecialBaseHolder() {
+    public BaseHolder getSpecialBaseHolder(int position) {
         return new ItemHolder();
     }
 

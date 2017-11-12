@@ -42,7 +42,7 @@ public abstract class SuperBaseAdapter<ITEMTYPE> extends MyBaseAdapter<ITEMTYPE>
                 holder = getLoadMoreHolder();
             }else {
                 //创建holder
-                holder = getSpecialBaseHolder();
+                holder = getSpecialBaseHolder(position);
             }
         } else {
             holder = (BaseHolder) convertView.getTag();
@@ -129,8 +129,9 @@ public abstract class SuperBaseAdapter<ITEMTYPE> extends MyBaseAdapter<ITEMTYPE>
      * @des 返回具体的BaseHolder的子类对象
      * @des 在SuperBaseAdapter中不知道如何返回具体的BaseHolder的子类对象, 只能交给子类
      * @des 子类是必须实现, 所以定义成为抽象方法即可
+     * @param position
      */
-    public abstract BaseHolder getSpecialBaseHolder();
+    public abstract BaseHolder getSpecialBaseHolder(int position);
 
     //处理条目的点击
     @Override

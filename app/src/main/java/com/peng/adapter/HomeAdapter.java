@@ -29,7 +29,7 @@ public class HomeAdapter extends SuperBaseAdapter<ItemBean> {
     }
 
     @Override
-    public BaseHolder getSpecialBaseHolder() {
+    public BaseHolder getSpecialBaseHolder(int position) {
         return new ItemHolder();
     }
     //决定有加载更多

@@ -19,7 +19,7 @@ public class SubjectAdapter extends SuperBaseAdapter<SubjectInfo> {
     }
 
     @Override
-    public BaseHolder getSpecialBaseHolder() {
+    public BaseHolder getSpecialBaseHolder(int position) {
         return new SubjectHolder();
     }
 }
