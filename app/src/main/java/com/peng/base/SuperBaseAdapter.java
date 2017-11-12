@@ -114,8 +114,12 @@ public abstract class SuperBaseAdapter<ITEMTYPE> extends MyBaseAdapter<ITEMTYPE>
         if (position == getCount() - 1) {
             return VIEWTYPE_LOADMORE;
         } else {
-            return VIEWTYPE_NORMAL;
+            return getNormalItemViewtype(position);
         }
+    }
+    //得到普通条目的ViewType的类型：子类可以复写该方法，返回更多的普通条目类型
+    public int getNormalItemViewtype(int postion) {
+        return VIEWTYPE_NORMAL; //默认值
     }
 
     @Override

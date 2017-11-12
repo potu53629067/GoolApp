@@ -29,4 +29,43 @@ public class CategoryAdapter extends SuperBaseAdapter<CategoryBean> {
                 return new CategoryNormalHolder();
             }
         }
+
+    @Override
+    public int getViewTypeCount() {
+        return super.getViewTypeCount()+1;
+    }
+
+    /* @Override
+        public int getItemViewType(int position) {
+            CategoryBean itemBean = mDatas.get(position);
+            if (position == getCount() - 1) {
+                return VIEWTYPE_LOADMORE;//0
+            } else {
+                if (itemBean.isTitle) {
+                    return 1;
+                } else {
+                    return 2;
+                }
+            }
+
+            //加载更多
+            //普通
+            //title
+            //normal
+//          return super.getItemViewType(position);
+        }*/
+        /*--------------- 方式二 ---------------*/
+    /**
+     * 返回普通条目具体的ViewType类型
+     * @return
+     */
+    @Override
+    public int getNormalItemViewtype(int postion) {
+            CategoryBean itemBean = mDatas.get(postion);
+            if (itemBean.isTitle){
+                return 1;
+            }else{
+                return 2;
+            }
+    }
 }
