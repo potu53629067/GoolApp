@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+    <!--5.应用的 下载部分 容器，放在底部-->
+    <FrameLayout
+        android:id="@+id/fl_download_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"></FrameLayout>
+    <!--5.1 放在下载部分容器上方-->
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/fl_download_container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--1.应用的 信息部分 容器-->
+        <FrameLayout
+            android:id="@+id/fl_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+        <!--2.应用的 安全部分 容器-->
+        <FrameLayout
+            android:id="@+id/fl_safe_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+        <!--3.应用的 截图部分 容器-->
+        <FrameLayout
+            android:id="@+id/fl_pic_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+        <!--4.应用的 描述部分 容器-->
+        <FrameLayout
+            android:id="@+id/fl_des_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></FrameLayout>
+    </LinearLayout>
+ </ScrollView>
+</RelativeLayout>
