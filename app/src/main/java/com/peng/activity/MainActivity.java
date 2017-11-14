@@ -24,12 +24,20 @@ import com.peng.factory.FragmentFactory;
 import com.peng.utils.UIUtils;
 
 import appmark.peng.com.myapplication.R;
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
 
-    private PagerSlidingTabStrip mMainTabs;
+    @Bind(R.id.mainTabs)
+    PagerSlidingTabStrip mMainTabs;
+    @Bind(R.id.mainViewPage)
+    ViewPager mMainViewPage;
+    @Bind(R.id.main_drawerLayout)
+    DrawerLayout mMainDrawerLayout;
+   /* private PagerSlidingTabStrip mMainTabs;
     private ViewPager mMainViewPage;
-    private DrawerLayout mMainDrawerLayout;
+    private DrawerLayout mMainDrawerLayout;*/
     private ActionBar mActionBar;
     private ActionBarDrawerToggle mToggle;
     private String[] mMainTitles;
@@ -38,17 +46,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         init();
         initActionBar();
         initActionBarDrawerToggle();
         initData();
         initListener();
+
     }
 
     private void init() {
-        mMainTabs = (PagerSlidingTabStrip) findViewById(R.id.mainTabs);
+      /*  mMainTabs = (PagerSlidingTabStrip) findViewById(R.id.mainTabs);
         mMainViewPage = (ViewPager) findViewById(R.id.mainViewPage);
-        mMainDrawerLayout = (DrawerLayout) findViewById(R.id.main_drawerLayout);
+        mMainDrawerLayout = (DrawerLayout) findViewById(R.id.main_drawerLayout);*/
     }
 
     private void initData() {
@@ -100,8 +110,9 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
     //监听tabs选中事件
-    private void initListener(){
+    private void initListener() {
         final MyOnPageChangeListener onPageChangeListener = new MyOnPageChangeListener();
         mMainTabs.setOnPageChangeListener(onPageChangeListener);
         //ViewPager渲染完成调用
@@ -114,7 +125,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    class MyOnPageChangeListener implements ViewPager.OnPageChangeListener{
+
+    class MyOnPageChangeListener implements ViewPager.OnPageChangeListener {
 
 
         @Override
@@ -124,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onPageSelected(int position) {
-            if(FragmentFactory.mCacheFragments.containsKey(position)){
+            if (FragmentFactory.mCacheFragments.containsKey(position)) {
                 BaseFragment baseFragment = FragmentFactory.mCacheFragments.get(position);
                 baseFragment.getLoadingPager().triggerLoadData();
             }
@@ -135,6 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     class MyPageAdapter extends PagerAdapter {
 
         //1.获取要滑动的控件的数量，在这里我们以滑动的广告栏为例，那么这里就应该是展示的图片的ImageView数量
@@ -183,23 +196,26 @@ public class MainActivity extends AppCompatActivity {
             return mMainTitles[position];
         }
     }
-    class MyFragmentStatePagerAdapter extends FragmentStatePagerAdapter{
-        public MyFragmentStatePagerAdapter(FragmentManager fm){
+
+    class MyFragmentStatePagerAdapter extends FragmentStatePagerAdapter {
+        public MyFragmentStatePagerAdapter(FragmentManager fm) {
             super(fm);
         }
+
         @Override
         public Fragment getItem(int position) {
             Fragment fragment = FragmentFactory.createFragment(position);
             return fragment;
-    }
+        }
 
         @Override
         public int getCount() {
-            if(mMainTitles !=null){
+            if (mMainTitles != null) {
                 return mMainTitles.length;
             }
             return 0;
         }
+
         //不管什么Adapter记得重写getPageTitle方法,不然父类是返回null报空指针
         @Override
         public CharSequence getPageTitle(int position) {
