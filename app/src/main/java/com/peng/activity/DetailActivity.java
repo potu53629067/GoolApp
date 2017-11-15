@@ -1,18 +1,22 @@
 package com.peng.activity;
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
 import com.peng.base.BaseActivity;
 import com.peng.base.ItemAdapter;
 import com.peng.bean.DetailBean;
+import com.peng.bean.DownLoadInfo;
 import com.peng.controller.LoadingPager;
 import com.peng.holder.DetailDesHolder;
 import com.peng.holder.DetailDownLoadHolder;
 import com.peng.holder.DetailInfoHolder;
 import com.peng.holder.DetailPicHolder;
 import com.peng.holder.DetailSafeHolder;
+import com.peng.manager.DownloadManager;
 import com.peng.protocol.DetailProtocol;
 import com.peng.utils.UIUtils;
 
@@ -40,6 +44,7 @@ public class DetailActivity extends BaseActivity {
     FrameLayout mFlDesContainer;
     private String mPackageName;
     private DetailBean mDetailBean;
+    private DetailDownLoadHolder mDetailDownLoadHolder;
 
     //1.加载成功视图-->并数据和视图进行绑定
     @Override
@@ -90,5 +95,46 @@ public class DetailActivity extends BaseActivity {
     public void init() {
         mPackageName = getIntent().getStringExtra(ItemAdapter.PACKAGE_NAME);
         super.init();
+    }
+    //4.观察者动态移除和添加，和手动发布最新状态
+    @Override
+    protected void onResume() {
+        //4.1 动态添加观察者到观察者集合中
+        if (mDetailDownLoadHolder != null) {
+            DownloadManager.getInstance().addObserver(mDetailDownLoadHolder);
+
+            //4.2手动发布DownLoadInfo的最新状态
+            DownLoadInfo downLoadInfo = DownloadManager.getInstance().createDownLoadInfo(mDetailBean);
+            DownloadManager.getInstance().notifyObservers(downLoadInfo);
+        }
+        super.onResume();
+    }
+    @Override
+    protected void onPause() {
+        //4.1 动态从观察者集合中移除观察者
+        if (mDetailDownLoadHolder != null) {
+            DownloadManager.getInstance().deleteObserver(mDetailDownLoadHolder);
+        }
+        super.onPause();
+    }
+    //5.actionbar
+    @Override
+    public void initActionBar() {
+        ActionBar supportActionBar = getSupportActionBar();
+        supportActionBar.setTitle("应用信息");
+        supportActionBar.setDisplayHomeAsUpEnabled(true);
+    }
+    //5.1 acttionbar点击事件
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                finish();
+                break;
+            default:
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

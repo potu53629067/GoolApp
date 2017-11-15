@@ -34,4 +34,9 @@ public class DetailProtocol extends BaseProtocol<DetailBean> {
         paramsMap.put("packageName",mPackageName);
         return paramsMap;
     }
+    //4.重写父类的生成缓存唯一key方法
+    @Override
+    public String generateKey(int index) {
+        return super.generateKey(index) + mPackageName;
+    }
 }

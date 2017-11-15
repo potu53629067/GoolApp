@@ -135,7 +135,7 @@ public abstract class BaseProtocol<T> {
             return  null;
     }
     //2.1 创建生成缓存的唯一Key的方法
-    private String generateKey(int index){
+    public String generateKey(int index){
         return getInterfaceKey() + "." + index;
     }
     //2.1 得到协议的关键字
